@@ -3,3 +3,8 @@
     padding:0;
     box-sizing: border-box;
 }
+
+body{
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 98%);
+}
