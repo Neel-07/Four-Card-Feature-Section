@@ -7,4 +7,20 @@
 body{
     padding: 10px 20px;
     background-color: hsl(0, 0%, 98%);
+    font-family: "Poppins", sans-serif;
 }
+
+header{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.row{
+    display:flex;
+}
+
+.card1{
+    border-top:hsl(0, 78%, 62%);
+}   
