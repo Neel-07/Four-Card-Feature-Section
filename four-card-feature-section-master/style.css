@@ -17,10 +17,21 @@ header{
    align-items: center;
 }
 
+main{
+    padding: 0rem 10rem;
+    
+}
+
 .row{
     display:flex;
 }
 
 .card1{
+    height:30%;
+    width:30%;
     border-top:hsl(0, 78%, 62%);
+    background-color:hsl(0, 0%, 98%);
+    border-radius:20px;
+    box-shadow: 0px 0px 10px  black;
 }   
+
