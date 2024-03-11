@@ -29,9 +29,23 @@ main{
 .card1{
     height:30%;
     width:30%;
-    border-top:hsl(0, 78%, 62%);
+    border-top:10px solid hsl(0, 78%, 62%);
     background-color:hsl(0, 0%, 98%);
     border-radius:20px;
     box-shadow: 0px 0px 10px  black;
 }   
 
+.card2{
+    border-radius:20px;
+    box-shadow: 0px 0px 10px  black;
+}
+
+.card3{
+    border-radius:20px;
+    box-shadow: 0px 0px 10px  black;
+}
+
+.card4{
+    border-radius:20px;
+    box-shadow: 0px 0px 10px  black;
+}
