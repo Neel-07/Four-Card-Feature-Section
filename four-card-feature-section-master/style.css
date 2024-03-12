@@ -26,26 +26,45 @@ main{
     display:flex;
 }
 
+img{
+    position: bottom;
+}
 .card1{
-    height:30%;
-    width:30%;
-    border-top:10px solid hsl(0, 78%, 62%);
+    height:220px;
+    width:400px;
+    border-top:5px solid hsl(180, 62%, 55%);
     background-color:hsl(0, 0%, 98%);
-    border-radius:20px;
+    border-radius:10px;
     box-shadow: 0px 0px 10px  black;
+    padding:25px;
 }   
 
+.card1 h2{
+    font-size: 20px;
+    
+}
+.card1 p{
+    font-size: 15px;
+    padding-top:10px;
+    line-height:1.7;
+    color: hsl(0, 3%, 56%);
+}
+
 .card2{
+    border-top:5px solid hsl(0, 78%, 62%);
     border-radius:20px;
     box-shadow: 0px 0px 10px  black;
 }
 
+
 .card3{
+    border-top:10px solid hsl(34, 97%, 64%);
     border-radius:20px;
     box-shadow: 0px 0px 10px  black;
 }
 
 .card4{
+    border-top:10px solid hsl(212, 86%, 64%);
     border-radius:20px;
     box-shadow: 0px 0px 10px  black;
 }
