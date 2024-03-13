@@ -7,7 +7,7 @@
 body{
     padding: 10px 20px;
     background-color: hsl(0, 0%, 98%);
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
 }
 
 header{
@@ -15,8 +15,27 @@ header{
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   margin:4rem;
 }
 
+
+header p:first-child{
+   font-size:35px;
+   font-weight:100;
+   font-family: "Poppins", sans-serif;
+   padding:10px;
+
+}
+header h1{
+    font-family: "Poppins", sans-serif;
+    color:hsl(234, 12%, 34%);
+}
+
+header p:last-child{
+    text-align: center;
+    padding:20px 40px;
+    font-size: 15px;
+}
 main{
     padding: 0rem 10rem;
     
@@ -78,6 +97,7 @@ img{
 }
 
 .card3{
+    position:relative;
     height:220px;
     width:400px;
     background-color:hsl(0, 0%, 98%);
@@ -87,8 +107,15 @@ img{
     padding:25px;
     margin:10px;
 }
+.card3 img{
+    position: absolute;
+    top: 70%;
+    right: 25px; /* Adjust as needed */
+    transform: translateY(-50%); /* This will vertically center the image */
+}
 
 .card4{
+    position:relative;
     height:220px;
     width:400px;
     border-top:10px solid hsl(212, 86%, 64%);
@@ -97,3 +124,12 @@ img{
     padding:25px;
     margin:10px;
 }
+
+.card4 img{
+    position: absolute;
+    top: 70%;
+    right: 25px; /* Adjust as needed */
+    transform: translateY(-50%); /* This will vertically center the image */
+}
+
+
