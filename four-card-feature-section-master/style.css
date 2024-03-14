@@ -95,6 +95,17 @@ img{
     right: 25px; /* Adjust as needed */
     transform: translateY(-50%); 
 }
+.card2 h2{
+    font-size: 20px;
+    
+}
+.card2 p{
+    font-size: 15px;
+    padding-top:10px;
+    line-height:1.7;
+    color: hsl(0, 3%, 56%);
+}
+
 
 .card3{
     position:relative;
@@ -113,6 +124,17 @@ img{
     right: 25px; /* Adjust as needed */
     transform: translateY(-50%); /* This will vertically center the image */
 }
+.card3 h2{
+    font-size: 20px;
+    
+}
+.card3 p{
+    font-size: 15px;
+    padding-top:10px;
+    line-height:1.7;
+    color: hsl(0, 3%, 56%);
+}
+
 
 .card4{
     position:relative;
@@ -130,6 +152,17 @@ img{
     top: 70%;
     right: 25px; /* Adjust as needed */
     transform: translateY(-50%); /* This will vertically center the image */
+}
+
+.card4 h2{
+    font-size: 20px;
+    
+}
+.card4 p{
+    font-size: 15px;
+    padding-top:10px;
+    line-height:1.7;
+    color: hsl(0, 3%, 56%);
 }
 
 
